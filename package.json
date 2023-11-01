@@ -1,5 +1,4 @@
 {
-  "homepage": "https://eduardoleon19.github.io/eshop/",
   "name": "eshop",
   "version": "1.0.0",
   "description": "",
@@ -7,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "start": "node backend/server.js"
   },
   "author": "eduardoleon19",
   "license": "ISC",
